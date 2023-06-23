@@ -22,7 +22,7 @@ describe('AppComponent', () => {
   });
 
   it('should have the correct title', () => {
-    expect(component.title).not.toBe('minicurso-cicd');
+    expect(component.title).toBe('minicurso-cicd');
   });
 
   it('should render the title in an h1 tag', () => {
