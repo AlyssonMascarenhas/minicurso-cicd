@@ -11,24 +11,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "jest",
-      "@testing-library/jest-dom",
-      "@types/node"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["jest", "@testing-library/jest-dom", "@types/node"],
+    "lib": ["es2018", "dom"]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
-    "types": [
-      "node"
-    ]
+    "types": ["node"]
   }
 }
