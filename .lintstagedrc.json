@@ -1,0 +1,9 @@
+{
+  "src/**/*.ts": [
+    "yarn lint",
+    "yarn test"
+  ],
+  "src/**/*.{html,mdx}": [
+    "yarn prettier"
+  ]
+}
