@@ -23,14 +23,6 @@
       "es2018",
       "dom"
     ],
-    "paths": {
-      "ion": [
-        "dist/ion"
-      ],
-      "ion/*": [
-        "dist/ion/*"
-      ]
-    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
